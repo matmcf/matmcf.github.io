@@ -4,7 +4,8 @@ ec.order.extraFields = ec.order.extraFields || {};
 
 
 // Add delivery day selection for customer
-ec.order.extraFields.delivery_day = {
+ec.order.extraFields.delivery_date = {
+    'available': false,
     'title': 'Preferred delivery day',
     'required': true,
     'type': 'datetime',
@@ -12,6 +13,17 @@ ec.order.extraFields.delivery_day = {
     'orderDetailsDisplaySection': 'shipping_info',
 }
 
+// The field "how_did_you_find_us" asks user about how they found the store. Drop down type
+ec.order.extraFields.delivery_day = {
+    'available': true,
+    'title': 'Preferred delivery day',
+    'tip': 'Orders must be placed by 9pm the previous day.'
+    'type': 'select',
+    'required': true,
+    'selectOptions': ['Tuesday', 'Thursday', 'Saturday'],
+    'checkoutDisplaySection': 'shipping_address',
+    'orderDetailsDisplaySection': 'shipping_info',
+};
 
 /*
 // Add pickup time selection for customer
