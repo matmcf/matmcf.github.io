@@ -1,3 +1,7 @@
+// Initialize extra fields
+ec.order = ec.order || {};
+ec.order.extraFields = ec.order.extraFields || {};
+
 // The field "how_did_you_find_us" asks user about how they found the store. Drop down type
 ec.order.extraFields.how_did_you_find_us = {
     'title': 'How did you find us?',
