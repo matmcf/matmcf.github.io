@@ -17,7 +17,7 @@ ec.order.extraFields.delivery_date = {
 ec.order.extraFields.delivery_day = {
     'available': true,
     'title': 'Preferred delivery day',
-    'tip': 'Orders must be placed by 9pm the previous day.'
+    'tip': 'Orders must be placed by 9pm the previous day.',
     'type': 'select',
     'required': true,
     'selectOptions': ['Tuesday', 'Thursday', 'Saturday'],
