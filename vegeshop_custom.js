@@ -18,7 +18,7 @@ ec.order.extraFields.delivery_date = {
 ec.order.extraFields.auto_renew = {
     'available': true,
     'title': 'Auto-renew',
-    'tip': 'Automatically renew my order and charge my saved card.',
+    'tip': 'Automatically renew my order and charge my saved card. The same delivery time and method will be used each time.',
     'type': 'select',
     'required': true,
     'selectOptions': ['Weekly', 'Fortnightly'],
