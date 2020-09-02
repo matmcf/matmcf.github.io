@@ -13,18 +13,18 @@ ec.order.extraFields.delivery_date = {
     'orderDetailsDisplaySection': 'shipping_info',
 }*/
 
-/*
+
 // The field "how_did_you_find_us" asks user about how they found the store. Drop down type
-ec.order.extraFields.delivery_day = {
+ec.order.extraFields.auto_renew = {
     'available': true,
-    'title': 'Preferred delivery day',
-    'tip': 'Orders must be placed by 9pm the previous day.',
+    'title': 'Auto-renew',
+    'tip': 'Automatically renew my order and charge my saved card.',
     'type': 'select',
     'required': true,
-    'selectOptions': ['Tuesday', 'Thursday', 'Saturday'],
-    'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'shipping_info',
-}; */
+    'selectOptions': ['Weekly', 'Fortnightly'],
+    'checkoutDisplaySection': 'payment_details',
+    'orderDetailsDisplaySection': 'payment_details',
+};
 
 /*
 // Add pickup time selection for customer
