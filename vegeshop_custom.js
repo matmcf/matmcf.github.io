@@ -20,7 +20,7 @@ ec.order.extraFields.auto_renew = {
     'title': 'Auto-renew',
     'tip': 'Automatically renew my order and charge my saved card. The same delivery time and method will be used each time.',
     'type': 'select',
-    'required': true,
+    'required': false,
     'selectOptions': ['Weekly', 'Fortnightly'],
     'checkoutDisplaySection': 'payment_details',
     'orderDetailsDisplaySection': 'payment_details',
