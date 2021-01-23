@@ -17,7 +17,7 @@ ec.order.extraFields.delivery_date = {
 // The field "how_did_you_find_us" asks user about how they found the store. Drop down type
 ec.order.extraFields.auto_renew = {
     'available': true,
-    'title': 'Auto-renew (for home delivery only)',
+    'title': 'Auto-renew (for deliveries only)',
     'tip': 'Automatically renew my order and charge my saved card. The same delivery time and method will be used each time. Auto-renew is not available for instore pick-ups.',
     'type': 'select',
     'required': false,
