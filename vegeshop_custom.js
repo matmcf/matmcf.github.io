@@ -11,7 +11,7 @@ ec.order.extraFields.delivery_date = {
     'type': 'datetime',
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'shipping_info',
-}*/
+}
 
 
 // The field "how_did_you_find_us" asks user about how they found the store. Drop down type
@@ -26,7 +26,8 @@ ec.order.extraFields.auto_renew = {
     'orderDetailsDisplaySection': 'payment_details',
 };
 
-/*
+
+
 // Add pickup time selection for customer
 ec.order.extraFields.ecwid_pickup_time = {
     'title': '_msg_ShippingDetails.pickup.customer_header',
